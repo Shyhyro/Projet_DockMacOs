@@ -5,7 +5,7 @@ class Link {
     };
     addLink(title) {
         document.getElementById("dockContainer").innerHTML += `
-            <a href="#">
+            <a href="https://${title}.com">
                 <div class="linkContainer">
                     <div class="text">${title}</div>
                 </div>

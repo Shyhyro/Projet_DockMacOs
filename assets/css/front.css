@@ -52,6 +52,7 @@ body {
 }
 
 .linkContainer {
+    background: no-repeat center 100%;
     margin: 5px;
     width: 80px;
     height: 80px;
