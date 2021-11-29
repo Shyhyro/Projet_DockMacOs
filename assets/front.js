@@ -12,5 +12,9 @@ new Position().position();
 
 new Link().addLink("Github");
 new Link().addLink("Google");
+new Link().addLink("Github");
+new Link().addLink("Google");
+new Link().addLink("Github");
+new Link().addLink("Google");
 
 new Effect().effect();

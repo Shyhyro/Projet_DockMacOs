@@ -13,6 +13,8 @@ body {
 }
 
 #panel {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -58,16 +60,7 @@ body {
     height: 80px;
     background: lightblue;
     border-radius: 15px;
-}
-
-.linkContainer:hover {
-    transition-duration: 1s;
-    transform: scale(1.8);
-}
-
-.autre {
-    transition-duration: 1s;
-    transform: scale(1.4);
+    transition-duration: 500ms;
 }
 
 .linkContainer:hover .text {
@@ -77,14 +70,15 @@ body {
 .text {
     display: none;
     position: relative;
-    top: -30px;
+    top: -35px;
 }
 
 a {
     text-decoration: none;
 }
 
-button, .text {
+button, .text, input {
+    margin-bottom: 5px;
     border: solid rgb(30, 30, 30);
     background: rgba(30, 30, 30, 0.7);
     color: rgb(255, 255, 255);

@@ -5,11 +5,11 @@ class Link {
     };
     addLink(title) {
         document.getElementById("dockContainer").innerHTML += `
-            <a href="https://${title}.com">
-                <div class="linkContainer">
+            
+                <a class="linkContainer" href="https://${title}.com">
                     <div class="text">${title}</div>
-                </div>
-            </a>
+                </a>
+            
         `
 
         new Effect().effect();

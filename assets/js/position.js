@@ -11,7 +11,10 @@ class Position {
                 <button id="left">Left</button>
                 <button id="bottom">Bottom</button>
                 <button id="right">Right</button>
-                <button id="add">+</button>
+                <div>
+                    <input id="newLink" type="text" maxlength="30" placeholder="New link">
+                    <button id="add">+</button>
+                </div>
             </div>
         `
     };
@@ -32,7 +35,8 @@ class Position {
             dock.className = "right";
         });
         document.getElementById("add").addEventListener('click', function () {
-            new Link().addLink();
+            let content = document.getElementById("newLink").value;
+            new Link().addLink(content);
         })
     };
 }
