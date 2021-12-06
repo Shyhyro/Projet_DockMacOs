@@ -63,6 +63,11 @@ body {
     transition-duration: 500ms;
 }
 
+.linkContainer img {
+    width: 50px;
+    height: 50px;
+}
+
 .linkContainer:hover .text {
     display: block;
 }

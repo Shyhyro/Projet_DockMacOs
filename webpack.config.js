@@ -37,7 +37,7 @@ function devConfig() {
                 },
                 // Règles fichiers images
                 {
-                    test: /\.(png|jpe?g|gif|webp)$/i,
+                    test: /\.(png|jpe?g|gif)$/i,
                     type: 'asset/resource',
                     generator: {filename: 'build/images/[name][ext]'}
                 },
